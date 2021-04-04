@@ -1,9 +1,9 @@
 clear all
-% refpropÎïĞÔ²ÎÊıµ÷ÓÃÊ¾Àı
+% refpropç‰©æ€§å‚æ•°è°ƒç”¨ç¤ºä¾‹
 fluid1='methane';
 fluid2='ethane';
 fluid3='nitrogen';
-%ÕâÀïÎªÁË·½±ã½«ËùÓĞÎïÖÊÌæ»»³Éfluid1,fluid2,fluid3µÄ×Ö·û´®
+%è¿™é‡Œä¸ºäº†æ–¹ä¾¿å°†æ‰€æœ‰ç‰©è´¨æ›¿æ¢æˆfluid1,fluid2,fluid3çš„å­—ç¬¦ä¸²
 x0=[0.8 0.1 0.1];
 p0=refpropm('P','T',200,'Q',0,fluid1,fluid2,fluid3,x0);
 
